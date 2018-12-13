@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppSendBroadCast</string>
+    <string name="send_broadcast_to_app_a">Send Broadcast to App A</string>
+    <string name="send_broadcast_to_app_b">Send Broadcast to App B</string>
+    <string name="go_to_sub_b">vn.com.example.appsendbroadcast.CALL_SUB_B</string>
+    <string name="data_send_b">Xin chào sub B</string>
+    <string name="data_send_a">Xin chào A</string>
+    <string name="go_to_a">vn.com.example.appsendbroadcast.CALL_A</string>
+</resources>

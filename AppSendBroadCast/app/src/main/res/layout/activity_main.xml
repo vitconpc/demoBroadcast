@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dp_10"
+    tools:context=".MainActivity">
+
+   <Button
+       android:onClick="sendBroadcastToA"
+       android:layout_margin="@dimen/dp_10"
+       android:text="@string/send_broadcast_to_app_a"
+       android:textAllCaps="false"
+       android:layout_gravity="center"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="sendBroadcastToB"
+        android:layout_marginTop="@dimen/dp_10"
+        android:textAllCaps="false"
+        android:text="@string/send_broadcast_to_app_b"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
